@@ -1,0 +1,9 @@
+﻿<%@ Master Language="C#"  AutoEventWireup="true"  MasterPageFile="~/Gursahib/Insurance.Master" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+ <asp:Content ID="c1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"> 
+     &nbsp
+<asp:LinkButton ID="LinkButton2" runat="server">Login</asp:LinkButton> &nbsp &nbsp 
+<asp:LinkButton ID="LinkButton3" runat="server">New User</asp:LinkButton>&nbsp &nbsp
+     <asp:LinkButton ID="LinkButton1" runat="server">Home</asp:LinkButton> 
+</asp:Content>

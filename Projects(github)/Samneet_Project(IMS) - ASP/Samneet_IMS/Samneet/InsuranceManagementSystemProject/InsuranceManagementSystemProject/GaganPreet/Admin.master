@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Fake.Master" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Project_1.Admin" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .style3
+        {
+            width: 522px;
+        }
+        .style4
+        {
+            width: 163px;
+        }
+        .style5
+        {
+            width: 250px;
+        }
+        .style6
+        {
+            width: 100%;
+            top: 82px;
+            left: 19px;
+            position: absolute;
+            height: 293px;
+        }
+        </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <table border = "5" style="height: 417px; width: 577px">
+   <tr>
+   <th colspan = "2" class="style3">
+   <center><h3>~~~Admin Section~~~</h3></center>
+   </th>
+   </tr>
+     <tr>      
+   <td class="style4">
+   <br />
+    <br />
+   <br />
+    <br />   
+    <br />  
+   <br />  
+       <table cellpadding="3" class="style6">
+           <tr>
+               <td>
+       <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click">Home</asp:LinkButton>
+               </td>
+           </tr>
+           <tr>
+               <td>
+       <asp:LinkButton ID="LinkButton2" runat="server">New Customer Details</asp:LinkButton>
+               </td>
+           </tr>
+           <tr>
+               <td>
+         <asp:LinkButton ID="LinkButton3" runat="server">New Employee</asp:LinkButton>
+               </td>
+           </tr>
+           <tr>
+               <td>
+         <asp:LinkButton ID="LinkButton4" runat="server">Assign Jobs</asp:LinkButton>
+               </td>
+           </tr>
+           <tr>
+               <td>
+         <asp:LinkButton ID="LinkButton5" runat="server">Check Status</asp:LinkButton>
+               </td>
+           </tr>
+           <tr>
+               <td>
+       <asp:LinkButton ID="LinkButton6" runat="server">Change Password</asp:LinkButton>
+               </td>
+           </tr>
+           <tr>
+               <td>
+       <asp:LinkButton ID="LinkButton7" runat="server">Logout</asp:LinkButton>
+               </td>
+           </tr>
+       </table>
+    </td>
+    <td class="style5"></td>
+   
+      </tr>
+   <tr align="center">
+   <th colspan = "2" class="style3">   <h3>Insurance Management System</h3><br/>
+   <h5>This Site Is Copyrighted</h5>
+   </th>
+
+   </tr>
+   </table>
+</asp:Content>

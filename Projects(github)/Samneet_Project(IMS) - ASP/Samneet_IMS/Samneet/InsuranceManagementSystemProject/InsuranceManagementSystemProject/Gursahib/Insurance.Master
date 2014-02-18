@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Insurance.Master.cs" Inherits="project_1.Insurance" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 184px;
+            height: 67px;
+        }
+        .style2
+        {
+            font-family: "DejaVu Sans Light";
+            font-size: 24pt;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <h1 style="font-size: 25pt">
+                &nbsp;<img src="images/car_insurance.jpg "style="width: 179px; height: 180px; margin-right: 7px;" /><span 
+                    class="style2">&nbsp; 
+                INSURANCE MANAGEMENT SYSTEM</span>&nbsp;&nbsp;&nbsp;
+                <img src="images/imagesCAELTRN5.jpg" 
+                    style="height: 169px; width: 151px; margin-top: 18px;" />
+                <img alt="insurance" class="style1" src="images/imagesCAUS7789.jpg" 
+                    style="background-color: #C0C0C0; background-image: none" 
+                    title="INSURANCE MANAGEMENT SYSTEM" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </h1>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+            <</asp:ContentPlaceHolder>
+    </div>
+    </form>
+    
+</body>
+</html>
