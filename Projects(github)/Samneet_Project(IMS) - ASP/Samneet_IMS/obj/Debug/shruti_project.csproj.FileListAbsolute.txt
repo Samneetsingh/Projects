@@ -1,5 +1,0 @@
-C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\shruti_project\shruti_project\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\shruti_project\shruti_project\bin\shruti_project.dll
-C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\shruti_project\shruti_project\bin\shruti_project.pdb
-C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\shruti_project\shruti_project\obj\Debug\shruti_project.dll
-C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\shruti_project\shruti_project\obj\Debug\shruti_project.pdb

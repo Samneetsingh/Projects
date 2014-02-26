@@ -1,3 +1,0 @@
------- Build started: Project: shruti_project, Configuration: Debug Any CPU ------
-shruti_project -> C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\shruti_project\shruti_project\bin\shruti_project.dll
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
